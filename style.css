@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght;700&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: steelblue;
+  color: ivory;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0;
+}
+
+h2{
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container{
+  background-color: darkslateblue;
+  box-shadow: 0 2px 10px rgba(255, 255g255, 255, 0.2);
+  padding: 2rem;
+  width: 350px;
+  max-width: 100%;
+}
+
+.result-container{
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  height: 50px;
+  width: 100%;
+}
+
+
+.result-container #result{
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-container .btn{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+.btn{
+  border: none;
+  background-color: rgb(1, 1, 111);
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-large{
+  display: block;
+  width: 100%;
+}
+
+.setting{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
